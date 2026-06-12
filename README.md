@@ -36,4 +36,4 @@ High-correlation pairings were identified among several predictors, posing a str
 ---
 
 ## Next Steps
-The insights gathered during this EDA phase serve as the official roadmap for the upcoming **Data Preprocessing and Feature Engineering** pipeline, which will focus on handling missing values, transforming skewed data, isolating leverage outliers, and addressing multicollinearity.
+The insights gathered during this EDA phase serve as the official roadmap for the upcoming **Data Preprocessing and Feature Engineering** pipeline, which will focus on transforming skewed data, isolating leverage outliers, and addressing multicollinearity.
