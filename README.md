@@ -2,7 +2,24 @@
 
 A machine learning project using **ridge regression** to predict house prices in the Ames City of Iowa. This project focuses on building an end-to-end pipeline that automates data preprocessing, feature engineering, model training, and delivering accurate predictions.
 
-## Project Structure
+## Project Workflow
+- Custom imputation
+- Feature engineering
+- Preprocessing
+  - Categorical encoding
+    - One-Hot Encoding (nominal features)
+    - Ordinal Encoding (ordinal features)
+  - Numerical transformations
+    - Log transformation
+    - Yeo-Johnson transformation
+    - Feature scaling
+- Model selection
+- Hyperparameter tuning
+- Optimized model fitting
+- Complete pipeline construction
+- House price prediction
+
+## Repository Structure
 This repository contains three folders and a README.md file. 
 
 data
@@ -33,3 +50,4 @@ Model - Ridge Regression
 Optimum alpha ($\alpha$) - 13.8489
 
 R2 Score - 91.93%
+
