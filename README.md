@@ -7,25 +7,25 @@ This repository contains three folders and a README.md file.
 
 data
 
-|_data_description.text --> description of all the variables in the dataset
+- data_description.text --> description of all the variables in the dataset
 
-|_train.csv             --> training set
+- train.csv             --> training set
 
-|_test.csv              --> testing set
+- test.csv              --> testing set
 
 notebook
 
-|_EDA.ipynb                                  --> detailed exploration of the training set with visualizations
+- EDA.ipynb                                  --> detailed exploration of the training set with visualizations
 
-|_Feature Engineering.ipynb                  --> handling of missing values and outliers; encoding and transformation of variables
+- Feature Engineering.ipynb                  --> handling of missing values and outliers; encoding and transformation of variables
 
-|_Model Training and Pipeline Building.ipynb --> model selection, tuning, and building complete model pipeline
+- Model Training and Pipeline Building.ipynb --> model selection, tuning, and building complete model pipeline
 
-|_Predictions.ipynb                          --> loading model pipeline to make predictions on testing data
+- Predictions.ipynb                          --> loading model pipeline to make predictions on testing data
 
 module
 
-|_imputation_and_feature_create.py --> custom transformers to integrate into the model pipeline
+- imputation_and_feature_create.py --> custom transformers to integrate into the model pipeline
 
 ## Model Information
 Model - Ridge Regression
